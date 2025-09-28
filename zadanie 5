@@ -1,1 +1,3 @@
-
+Korzystałem ze strony https://gsuite.tools/traceroute do sprawdzenia tras datagramów. Strona uznała, moją startową lokalizację za Wielką Brytanię lub Finlandię.
+Do onetu i nasa według tej strony droga pakietów prowadziła bezpośrednio z Finlandii do Niemiec. Sprawdziłem jeszcze drogę do serwerów uczelni,
+w tym przypadku pakiety szły z Finlandii przez Wielką Brytanię do Polski
