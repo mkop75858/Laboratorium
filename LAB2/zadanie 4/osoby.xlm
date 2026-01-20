@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osoby 
+    <osoba id = "1">
+        <imie>Mateusz</imie>
+        <nazwisko>Łopanka</nazwisko>
+        <plec>mężczyzna</plec>
+        <wiek>26</wiek>
+    </osoba>
+    <osoba id = "2">
+        <imie>Karolina</imie>
+        <nazwisko>Mrozek</nazwisko>
+        <plec>kobieta</plec>
+        <wiek>35</wiek>
+    </osoba>
+</osoby>
