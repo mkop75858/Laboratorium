@@ -1,0 +1,24 @@
+Wielkość pliku: 10GB
+Przepustowość: 600 Mb/s
+
+Przepustowość przeliczam na bajty: 600 Mb / 8 = 75 MB
+Przepustowość w megabajtach na sekundę: 75 MB/s
+
+Wielkość plilu w megabajtach = 10240 MB
+
+Teoretyczny czas pobierania = 10240 MB / 75 MB/s = 136,5 s
+
+Narzut Ethernet/IP/TCP = 4%
+Retransmisje = 1%
+
+Korekta o narzut Ethernet/IP/TCP i ewentualne retransmisje = 5%
+
+Przepustowość skorygowana = 75 MB/s * (1-0.05) = 71,25 MB/s
+
+Rzeczywisty czas pobierania: 10240 MB / 71,25 MB/s = 143,7 s
+
+Wnioski:
+Teoretyczna przepustowość łącza nie jest w pełni wykorzystywana z powodu narzutów protokołów warstwowych (Ethernet, IP, TCP).
+Dodatkowo retransmisje pakietów zwiększają całkowity czas transmisji.
+W praktyce czas pobierania plików jest zawsze dłuższy niż wynikałoby to z prostego podziału rozmiaru pliku przez przepustowość łącza.
+Nawet niewielki narzut (kilka procent) ma zauważalny wpływ na czas transferu dużych plików.
