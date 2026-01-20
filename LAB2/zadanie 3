@@ -1,0 +1,7 @@
+1. DNS Cache to miejsce, w którym system operacyjny (Windows, macOS, Linux) oraz przeglądarka zapisują pary: Nazwa Domeny + Adres IP. Dzięki temu przy kolejnej wizycie komputer "pamięta" drogę i nie musi wysyłać zapytania do zewnętrznych serwerów DNS u dostawcy internetu.
+
+2. Głównym powodem jest optymalizacja i szybkość działania sieci. Przechowywanie tych adresów lokalnie niesie ze sobą trzy kluczowe korzyści:
+Błyskawiczne ładowanie stron: Pobranie adresu IP z pamięci podręcznej zajmuje ułamki milisekund. Zapytanie do zewnętrznego serwera DNS może trwać od kilkudziesięciu do kilkuset milisekund.
+Zmniejszenie ruchu sieciowego: Twoje urządzenie wysyła mniej zapytań do internetu, co odciąża Twoje łącze oraz serwery dostawcy usług internetowych.
+Praca w trybie offline: Jeśli strona była niedawno odwiedzana, komputer zna jej adres IP, co w niektórych specyficznych konfiguracjach sieciowych może pomóc w identyfikacji zasobów nawet przy chwilowych problemach z łącznością zewnętrzną.
+
