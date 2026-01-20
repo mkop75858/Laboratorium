@@ -1,1 +1,10 @@
+1. Parametry w metodzie GET znajdują się bezpośrednio w adresie URL (tzw. query string). Zaczynają się po znaku zapytania (?), a kolejne pary klucz=wartość są łączone znakiem ampersand (&).
 
+2. W samym adresie URL: Parametry nie są szyfrowane w sensie ukrycia ich przed użytkownikiem – każdy, kto patrzy na pasek adresu lub historię przeglądarki, widzi je w formie jawnej.
+W trakcie przesyłania (HTTPS): Jeśli używasz protokołu HTTPS, całe żądanie (w tym adres URL z parametrami) jest szyfrowane warstwą TLS/SSL podczas podróży przez sieć. 
+Jedynie administrator serwera lub osoba mająca dostęp do mojej przeglądarki zobaczy parametry.
+
+3. GET: Przesyła dane w nagłówku żądania, a konkretnie jako część adresu URL. Są one widoczne dla każdego i mają ograniczenie długości (zależne od przeglądarki).
+
+POST: Przesyła dane w iele (body) żądania HTTP. Dane nie są widoczne w pasku adresu, co czyni tę metodę bezpieczniejszą przy przesyłaniu haseł czy danych osobowych. 
+Metoda POST nie ma też tak rygorystycznych ograniczeń co do wielkości przesyłanych informacji (pozwala np. na wysyłanie plików).
