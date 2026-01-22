@@ -1,0 +1,61 @@
+Obok etykiety Layer 7: 1. The HTTP client sends a HTTP request to the server. (screen nr 1)
+
+Jakie informacje wyświetlone są w ponumerowanych krokach bezpośrednio poniżej pól In Layers i Out
+Layers? (screen nr 1)
+
+Kliknij Next Layer. Powinna być podświetlona warstwa 4. Jaka jest wartość portu docelowego (Dest Port)? : 80 (screen nr 1)
+
+Kliknij Next Layer. Powinna być podświetlona warstwa 3. Jaka jest wartość docelowego adresu IP (Dst IP)? : 192.168.1.2 (screen nr 1)
+
+Kliknij Next Layer. Jakie informacje wyświetlone są na tej warstwie?: screen nr 2
+
+Jakie są wspólne informacje wymienione w sekcji IP szczegółów PDU (PDU Details) w porównaniu do 
+informacji wymienionych w zakładce OSI Model? Z którą warstwą jest to związane?: SRC IP i DST IP, związane z warstwą 3 (screen 1 i 3)
+
+Jakie są wspólne informacje wymienione w sekcji TCP szczegółów PDU (PDU Details) w porównaniu do
+informacji wymienionych w zakładce OSI Model? Z którą warstwą jest to związane?: Source port i destination port (screen 1 i 3)
+
+Jaka jest wartość pola Host wymienionego w sekcji HTTP szczegółów PDU (PDU Details)? Z którą
+warstwą z zakładki OSI Model będzie ta informacja związana?: HTTP Data:Accept-Language: en-us
+Accept: */* (screen 3), z warstwą 7
+
+
+h. Porównując informacje wyświetlane w kolumnie In Layers z tymi w kolumnie Out Layers, jakie są między
+nimi główne różnice?: W In Layers są informacje o otrzymywanych frame'ach i HTTP requestach, a w OUT są wysłane requesty i frame'y (screen 4)
+
+i. Kliknij zakładkę Outbound PDU Details . Przewiń w dół do sekcji HTTP.
+Jaka jest pierwsza linia wyświetlana w wiadomości HTTP?: HTTP Data:Connection: close (screen 5)
+
+j. Kliknij ostatni kolorowy kwadrat w kolumnie Info. Ile zakładek zostało wyświetlonych i dlaczego?: 2 zakładki, bo to są informacje odnośnie ostatniego urządzenia (PC)
+
+
+Część 2:
+b. W sekcji Event List Filters > Visible Events, kliknij przycisk Show All.
+Jakie dodatkowe typy zdarzeń (Event Types) są wyświetlane?: DNS ARP, TCP (screen 7)
+
+d. Kliknij zakładkę Outbound PDU Details. Jakie informacje podane są w sekcji NAME: DNS QUERY?: www.osi.local (screen 8)
+
+e. Kliknij ostatni kolorowy kwadrat DNS Info na liście zdarzeń. Które urządzenie jest wyświetlane?: PC0 (screen 9)
+
+Jaka jest wartość wyświetlona obok ADDRESS: w sekcji DNS ANSWER zakładki (Inbound PDU Details)? 192.168.1.2 (screen 10)
+
+f. Znajdź pierwsze zdarzenie HTTP na liście i kliknij kolorowe pole kwadratu zdarzenia TCP bezpośrednio po
+tym zdarzeniu. Zaznacz Layer 4 w zakładce OSI Model. Na podstawie numerowanej listy bezpośrednio
+poniżej obszarów In Layers i Out Layers napisz jakie informacje wyświetlone są w punkcie 4 i 5?: 
+4. The TCP connection is successful.
+5. The device sets the connection state to ESTABLISHED. (screen 11)
+
+g. Kliknij ostatnie zdarzenie TCP. Zaznacz Layer 4 w zakładce OSI Model. Przeanalizuj kroki opisane
+bezpośrednio pod obszarami In Layers i Out Layers. W oparciu o informacje zawarte w ostatniej pozycji
+na liście (powinna być pozycja 4) napisz jakie jest przeznaczenie tego zdarzenia?: Kanał komunikacyjny został zamknięty (screen 12)
+
+Na podstawie informacji, która została sprawdzona podczas przechwytywania w Packet Tracer, napisz jaki
+numer portu ma, nasłuchujący żądań stron WWW serwer (Web Server)?: 1026 (screen 12)
+
+
+
+
+
+
+
+
